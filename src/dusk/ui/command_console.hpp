@@ -27,6 +27,9 @@ public:
 
     bool input_active() const { return mInputActive; }
 
+    // Testing
+    void append_message(std::string text);
+
 private:
     struct MessageLine {
         std::string text;
@@ -55,7 +58,7 @@ private:
 
     bool handle_nav_command(Rml::Event& event, NavCommand cmd) override;
 
-    void append_message(std::string text);
+    //void append_message(std::string text);
     void close_input();
     void execute_from_input();
     bool has_onscreen_messages() const;

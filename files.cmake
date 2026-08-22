@@ -1492,6 +1492,7 @@ set(DUSK_FILES
         src/dusk/mods/svc/camera.cpp
         src/dusk/mods/svc/config.cpp
         src/dusk/mods/svc/config.hpp
+        src/dusk/mods/svc/console.cpp
         src/dusk/mods/svc/game.cpp
         src/dusk/mods/svc/gfx.cpp
         src/dusk/mods/svc/flow.cpp

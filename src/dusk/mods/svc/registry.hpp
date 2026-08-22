@@ -83,5 +83,6 @@ extern const ServiceModule g_itemModule;
 extern const ServiceModule g_flowModule;
 extern const ServiceModule g_messageModule;
 extern const ServiceModule g_gamemodeModule;
+extern const ServiceModule g_consoleModule;
 
 }  // namespace dusk::mods::svc
